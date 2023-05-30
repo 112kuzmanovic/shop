@@ -1,0 +1,50 @@
+.testimonial-container{
+    background-color: darkcyan;
+    columns: #fff;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 50px 80px;
+    max-width: 768px;
+    position: relative;
+
+}
+
+.testimonial{
+    line-height: 28px;
+    text-align: justify;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.user .user-image{
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+}
+.user .user-details{
+    margin-left: 15px;
+}
+.user .user-name{
+   margin: 0; 
+}
+.user .role{
+    font-weight: normal;
+    margin: 10px 0;
+}
+.progress-bar{
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+}
+
+@keyframes grow{
+    0%{
+        transform:  scaleX(0);
+    }
+}
